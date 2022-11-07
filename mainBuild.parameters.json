@@ -1,0 +1,151 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "monitoringAgent": {
+      "value": true
+    },
+    "ephemeral": {
+      "value": true
+    },
+    "AADJoin": {
+      "value": true
+    },
+    "intune": {
+      "value": true
+    },
+    "newBuild": {
+      "value": true
+    },
+    "hostPoolType": {
+      "value": "Pooled"
+    },
+    "personalDesktopAssignmentType": {
+      "value": "Direct"
+    },
+    "maxSessionLimit": {
+      "value": 12
+    },
+    "loadBalancerType": {
+      "value": "BreadthFirst"
+    },
+    "workspaceName": {
+      "value": "ABRI-AVD-PROD"
+    },
+    "numberOfInstances": {
+      "value": 2
+    },
+    "currentInstances": {
+      "value": 0
+    },
+    "vmPrefix": {
+      "value": "ABRI-AVD-PROD"
+    },
+    "AzTenantID": {
+      "value": ""
+    },
+    "artifactsLocation": {
+      "value": ""
+    },
+    "AVDResourceGroup": {
+      "value": ""
+    },
+    "workspaceLocation": {
+      "value": ""
+    },
+    "tokenExpirationTime": {
+      "value": ""
+    },
+    "ouPath": {
+      "value": ""
+    },
+    "domain": {
+      "value": ""
+    },
+    "administratorAccountUserName": {
+      "value": ""
+    },
+    "administratorAccountPassword": {
+      "value": ""
+    },
+    "hostPoolName": {
+      "value": ""
+    },
+    "customRdpProperty": {
+      "value": ""
+    },
+    "hostPoolFriendlyName": {
+      "value": ""
+    },
+    "appGroupFriendlyName": {
+      "value": ""
+    },
+    "applicationGroupReferences": {
+      "value": ""
+    },
+    "desktopName": {
+      "value": ""
+    },
+    "defaultUsers": {
+      "value": ""
+    },
+    "appID": {
+      "value": ""
+    },
+    "appSecret": {
+      "value": ""
+    },
+    "vmResourceGroup": {
+      "value": ""
+    },
+    "vmLocation": {
+      "value": ""
+    },
+    "vmSize": {
+      "value": ""
+    },
+    "vmDiskType": {},
+    "existingVNETResourceGroup": {
+      "value": ""
+    },
+    "existingVNETName": {
+      "value": ""
+    },
+    "existingSubnetName": {
+      "value": ""
+    },
+    "sharedImageGallerySubscription": {
+      "value": ""
+    },
+    "sharedImageGalleryResourceGroup": {
+      "value": ""
+    },
+    "sharedImageGalleryName": {
+      "value": ""
+    },
+    "sharedImageGalleryDefinitionname": {
+      "value": ""
+    },
+    "sharedImageGalleryVersionName": {
+      "value": ""
+    },
+    "logworkspaceSub": {
+      "value": ""
+    },
+    "logworkspaceResourceGroup": {
+      "value": ""
+    },
+    "logworkspaceName": {
+      "value": ""
+    },
+    "workspaceID": {
+      "value": ""
+    },
+    "workspaceKey": {
+      "value": ""
+    },
+    "tagParams": {
+      "value": {}
+    }
+  }
+}
